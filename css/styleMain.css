@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .page-container{
@@ -113,7 +116,8 @@ body {
 
 footer {
     width: 100%;
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
     font-size: 14px;
     color: #8c8c8c;
     display: flex;
